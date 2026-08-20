@@ -1,0 +1,4 @@
+# Digest run — 08:00 every day, in the container's TZ (set via the TZ env var).
+# Secrets are read by the app from the mounted /app/.env file, so cron itself
+# needs no environment. Output is redirected to PID 1 so `docker logs` shows it.
+0 8 * * * cd /app && /usr/local/bin/node src/index.js >> /proc/1/fd/1 2>/proc/1/fd/2
