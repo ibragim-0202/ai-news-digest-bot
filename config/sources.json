@@ -1,0 +1,26 @@
+[
+  {
+    "id": "habr-ai",
+    "title": "Habr · AI",
+    "url": "https://habr.com/ru/rss/hub/artificial_intelligence/all/?fl=ru",
+    "enabled": true
+  },
+  {
+    "id": "habr-ml",
+    "title": "Habr · Machine Learning",
+    "url": "https://habr.com/ru/rss/hub/machine_learning/all/?fl=ru",
+    "enabled": true
+  },
+  {
+    "id": "techcrunch-ai",
+    "title": "TechCrunch · AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "enabled": true
+  },
+  {
+    "id": "theverge-ai",
+    "title": "The Verge · AI",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "enabled": true
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "ai-news-digest-bot",
+  "version": "0.1.0",
+  "description": "Cron-driven bot that pulls IT/AI news from RSS, summarizes each item with an LLM, deduplicates already-sent items, and posts a compact digest to Telegram.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "once": "node src/index.js --verbose",
+    "test": "node --test"
+  },
+  "keywords": [
+    "rss",
+    "digest",
+    "telegram",
+    "llm",
+    "automation"
+  ],
+  "author": "Ibragim Salimgariev",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
